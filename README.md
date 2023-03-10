@@ -2,7 +2,7 @@
 
 The code is packaged for a general user (requires Jupyter Notebook). The Jupyter Notebook (Pred_Hv_LOGO.ipynb) is designed to to predict load dependent Vickers hardness. 
 
-The trained model will predict the hardness of materials based on 141 composition-only descriptors. To optimize the model, the user should tune the hyperparameters and prune less important features (see below). This will allow the user to optimize the trained model based on their specific training dataset. 
+The trained model will predict the hardness of materials based on 141 composition-only descriptors. To optimize the model, the user should tune the hyperparameters and prune less important features (see below). This will allow the user to optimize their model with a specific training dataset
 
 - [GridSeachCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - [RFE](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
